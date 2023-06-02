@@ -1236,6 +1236,14 @@
       required: true
     };
 
+     var eslcheck_trial = {
+      type: jsPsychHtmlButtonResponse,
+      stimulus: '<p>Is English your native language?  </br> </br> Click on your answer!</p>',
+      choices: ['YES', 'NO'],
+      button_html: '<button class="jspsych-btn">%choice%</button>',
+      required: true
+    };
+
     var country_survey_trial = {
       type: jsPsychSurveyText,
       questions: [
@@ -1385,6 +1393,7 @@
        }
        timeline.push(indicol);
        timeline.push(visioncheck_trial);
+       timeline.push(eslcheck_trial);
        timeline.push(country_survey_trial);
         timeline.push(feedback);
         timeline.push(success_guard);
