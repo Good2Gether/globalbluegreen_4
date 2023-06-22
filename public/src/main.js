@@ -64,7 +64,7 @@
         document.body.style.cursor = 'auto';
         var randomCode = jsPsych.randomization.randomID(7);
         jsPsych.endExperiment(`<div>
-        Your survey code is: <b><b>Cog${randomCode}Glo92</b></br>
+        Your survey code is: <b><b>928328271717</b></br>
         You can close the browser to end the experiment now. </br>
                     The webcam will turn off when you close the browser. </br>
                      
@@ -1317,7 +1317,7 @@
            })
            .done(function () {
             ("The experiment data has been saved successfully!" +
-            "Your survey code is: <b> Cog2892819Glo00." +
+            "Your survey code is: <b> 928328271717." +
             "You can close the browser to end the experiment now. " +
             "The webcam will turn off when you close the browser.")
            })
